@@ -5,7 +5,7 @@
 -- Data Criacao ...........: 15/02/2025
 -- Autor(es) ..............: Arthur Taylor de Jesus Popov,
 --                           Daniel Rocha Oliveira,
--- 							             Eurico Menezes de Abreu Neto,
+-- 							 Eurico Menezes de Abreu Neto,
 --                           Matheus Phillipo Silverio Silva
 -- Banco de Dados .........: MySQL 8.0
 -- Base de Dados (nome) ...: Employee
@@ -17,6 +17,9 @@
 -- Ultimas Alterações
 -- 15/02/2025 => Criação do Script Apaga para o banco de dados test_db
 -- --------------------------------------------------------------------------
+
+USE Employee;
+
 DROP VIEW IF EXISTS current_dept_emp;
 DROP VIEW IF EXISTS dept_emp_latest_date;
 
