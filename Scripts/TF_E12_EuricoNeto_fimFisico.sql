@@ -74,7 +74,7 @@ CREATE TABLE TITLE (
 
 CREATE TABLE SALARY (
     emp_no      INT             NOT NULL,
-    amount      INT             NOT NULL,
+    salary      INT             NOT NULL,
     from_date   DATE            NOT NULL,
     to_date     DATE            NOT NULL,
     FOREIGN KEY (emp_no) REFERENCES EMPLOYEE (emp_no) ON DELETE CASCADE,

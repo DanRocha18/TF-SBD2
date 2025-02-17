@@ -22,6 +22,7 @@ USE Employee;
 
 DROP VIEW IF EXISTS current_dept_emp;
 DROP VIEW IF EXISTS dept_emp_latest_date;
+DROP VIEW IF EXISTS highest_salaries;
 
 DROP TABLE IF EXISTS salary;
 DROP TABLE IF EXISTS title;
