@@ -12,6 +12,7 @@
 --
 -- PROJETO => 01 Base de Dados
 --         => 06 Tabelas
+--         => 03 Views
 -- ---------------------------------------------------------
 
 DROP DATABASE IF EXISTS Employee;
