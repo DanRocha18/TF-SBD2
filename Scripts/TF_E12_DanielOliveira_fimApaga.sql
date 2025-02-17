@@ -12,10 +12,10 @@
 --
 -- PROJETO => 01 Base de Dados
 --         => 06 Tabelas
---         => 02 Views
+--         => 03 Views
 --
 -- Ultimas Alterações
--- 15/02/2025 => Criação do Script Apaga para o banco de dados test_db
+-- 15/02/2025 => Criação do Script Apaga para o banco de dados Employee
 -- --------------------------------------------------------------------------
 
 USE Employee;
