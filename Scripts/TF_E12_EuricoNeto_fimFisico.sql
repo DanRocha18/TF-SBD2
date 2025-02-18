@@ -15,16 +15,8 @@
 --         => 03 Views
 -- ---------------------------------------------------------
 
-DROP DATABASE IF EXISTS Employee;
 CREATE DATABASE IF NOT EXISTS Employee;
 USE Employee;
-
-DROP TABLE IF EXISTS dept_emp,
-                     dept_manager,
-                     title,
-                     salary, 
-                     employee, 
-                     department;
 
 CREATE TABLE EMPLOYEE (
     emp_no      INT             NOT NULL,
