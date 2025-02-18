@@ -48,7 +48,7 @@ CREATE OR REPLACE VIEW current_dept_emp AS
 -- Para consultar a view:
 -- SELECT * FROM employee.highest_salaries;
 CREATE OR REPLACE VIEW employee.highest_salaries AS
-    SELECT s.emp_no, e.first_name, s.amount
+    SELECT s.emp_no, e.first_name, s.salary
     FROM employee.salary s
     JOIN employee.employee e ON s.emp_no = e.emp_no
     ORDER BY s.amount DESC;
